@@ -19,5 +19,7 @@
 - vim 에디터로 파일 열기: vim bitcoinAutoTrade.py
 - vim 에디터 입력: i
 - vim 에디터 저장: :wq!
+- pip3 설치: sudo apt-get install python3-pip
+- pip3로 pyupbit 설치: pip3 install pyupbit
 - 백그라운드 실행: nohup python3 bitcoinAutoTrade.py > output.log &
 - 실행되고 있는지 확인: ps ax | grep .py
