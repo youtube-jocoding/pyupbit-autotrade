@@ -13,3 +13,12 @@
 
 #### 위 코드는 "파이썬을 이용한 비트코인 자동매매 (개정판)"을 참고하여 제작되었습니다.
 #### 참고 문헌: https://wikidocs.net/book/1665
+
+### Ubuntu 서버 명령어
+현재 경로 상세 출력: ls -al
+경로 이동: cd 경로
+vim 에디터로 파일 열기: vim bitcoinAutoTrade.py
+vim 에디터 입력: i
+vim 에디터 저장: :wq!
+백그라운드 실행: nohup python bitcoinAutoTrade.py > output.log &
+실행되고 있는지 확인: ps ax | grep test.py
