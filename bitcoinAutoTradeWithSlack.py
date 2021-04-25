@@ -57,7 +57,6 @@ while True:
         now = datetime.datetime.now()
         start_time = get_start_time("KRW-BTC")
         end_time = start_time + datetime.timedelta(days=1)
-        print(now)
 
         if start_time < now < end_time - datetime.timedelta(seconds=10):
             target_price = get_target_price("KRW-BTC", 0.5)
