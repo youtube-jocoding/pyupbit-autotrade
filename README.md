@@ -14,6 +14,7 @@
 - 참고 문헌: https://wikidocs.net/book/1665
 
 ### Ubuntu 서버 명령어
+- 한국 기준으로 서버 시간 설정: sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 - 현재 경로 상세 출력: ls -al
 - 경로 이동: cd 경로
 - vim 에디터로 파일 열기: vim bitcoinAutoTrade.py
