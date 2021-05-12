@@ -26,6 +26,7 @@ def get_balance(ticker):
                 return float(b['balance'])
             else:
                 return 0
+    return 0
 
 def get_current_price(ticker):
     """현재가 조회"""
