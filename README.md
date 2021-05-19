@@ -36,6 +36,7 @@
 - pip install pyupbit
 - pip install schedule
 - conda install -c conda-forge fbprophet
+- pip install pystan --upgrade
 
 ### Ubuntu 20.4 인공지능 (Prophet) 자동매매 환경 설치 방법
 - 4GB이상 RAM 필요 (AWS t2.medium 이상)
