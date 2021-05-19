@@ -7,6 +7,7 @@
 - backtest.py : 백테스팅 코드 (2강)
 - bestK.py : 가장 좋은 k 값을 찾는 코드 (2강)
 - bitcoinAutoTrade.py : 변동성 돌파 전략 비트코인 자동매매 코드 (2강)
+- bitcoinAutoTradeWithAI.py : 변동성 돌파 전략 + 인공지능(Prophet) 비트코인 자동매매 코드 (3강)
 - bitcoinAutoTradeWithMA.py : 변동성 돌파 전략 + 15일 이동평균선 이상 비트코인 자동매매 코드 (2강)
 - bitcoinAutoTradeWithSlack.py : 위 코드에 슬랙 붙여 놓은 것 (2강)
 - 강의 보러가기:  https://youtube.com/playlist?list=PLU9-uwewPMe3KKFMiIm41D5Nzx_fx2PUJ
@@ -29,3 +30,20 @@
 
 ![PID설명](https://user-images.githubusercontent.com/58558338/115999411-9133ef00-a626-11eb-8aa0-82a1114936e8.PNG)
 
+
+### Windows 인공지능 (Prophet) 자동매매 환경 설치 방법
+- 아나콘다(https://www.anaconda.com/) 설치
+- pip install pyupbit
+- pip install schedule
+- conda install -c conda-forge fbprophet
+
+### Ubuntu 20.4 인공지능 (Prophet) 자동매매 환경 설치 방법
+- 4GB이상 RAM 필요 (AWS t2.medium 이상)
+- sudo apt update
+- sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+- sudo apt install python3-pip
+- pip3 install pyupbit
+- pip3 install schedule
+- pip3 install pystan==2.19.1.1
+- pip3 install convertdate
+- pip3 install fbprophet
